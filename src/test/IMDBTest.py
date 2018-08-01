@@ -8,7 +8,7 @@ from src.Page.IMDBHomePage import IMDBHomePage
 class Test_GetTop250MovieDetails(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome("C:\\Users\\sparsh.pareek\\Downloads\\chromedriver_win32\\chromedriver.exe")
+        self.driver = webdriver.Chrome("C:\\IMDB\\Lib\\chromedriver.exe")
         self.driver.get("https://www.imdb.com/chart/top")
 
     def test_imdb_page(self):
